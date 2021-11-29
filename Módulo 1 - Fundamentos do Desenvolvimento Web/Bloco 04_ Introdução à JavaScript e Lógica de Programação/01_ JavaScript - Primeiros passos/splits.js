@@ -13,7 +13,8 @@ console.log(birthYear);
 console.log(age);
 console.log(nome);
 
-// TIPOS PRIMITIVOS, TIPAGEM DINÂMICA E OPERAÇÕES ARITMÉTICAS
+// TIPOS PRIMITIVOS, TIPAGEM DINÂMICA E
+// OPERAÇÕES ARITMÉTICAS
 
 let movie = "Avengers"; //string litral
 let score = 10; //number literal
@@ -32,3 +33,19 @@ console.log(salary);
   const perimeter = base + height + area;
   console.log(area);
   console.log(perimeter);
+  
+  // CONDIÇÕES IF E ELSE
+
+let trybe = 22;
+if (trybe >= 14 && trybe < 14.40) {
+    console.log("Esquenta");
+}
+else if (trybe >= 16.30 && trybe < 17.50) {
+    console.log("Aula ao vivo");
+}
+else if (trybe >= 19.40 && trybe < 20) {
+    console.log("Fechamento");
+}
+else {
+    console.log("Fora dos momentos síncronos");
+}
