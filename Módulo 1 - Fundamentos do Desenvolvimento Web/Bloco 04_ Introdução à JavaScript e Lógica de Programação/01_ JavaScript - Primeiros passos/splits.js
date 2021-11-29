@@ -49,3 +49,30 @@ else if (trybe >= 19.40 && trybe < 20) {
 else {
     console.log("Fora dos momentos síncronos");
 }
+
+// OPERADORES LÓGICOS
+// .Operador AND (E)
+
+const comida = "pão na chapa";
+const bebida = "cafézinho";
+
+   if (bebida ==="cafézinho" && comida === "pão na chapa") {
+       console.log("Muito obrigado pela refeição :)");
+   } else {
+       console.log("acho que houve um engano com o meu pedido")
+   }
+
+  const currentHour = 12;
+  let message = ""; 
+  if (currentHour >= 22) {
+      console.log(message = "Não deveríamos comer nada é hora de dormir");
+  }
+  else if (currentHour >= 18 && currentHour < 22) {
+      console.log(message = "Rango da noite, vamos jantar:D");
+  }
+  else if (currentHour > 11 && currentHour < 14) {
+      console.log(message = "Hora do almoço");
+  }
+  else if (currentHour > 4 && currentHour < 11) {
+      console.log(message = "Hmmm, cheiro de café recém passado");
+  }
