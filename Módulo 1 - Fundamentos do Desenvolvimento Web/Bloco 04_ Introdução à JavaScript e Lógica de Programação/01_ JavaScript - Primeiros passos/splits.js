@@ -76,3 +76,13 @@ const bebida = "cafézinho";
   else if (currentHour > 4 && currentHour < 11) {
       console.log(message = "Hmmm, cheiro de café recém passado");
   }
+  //.Operador OR (ou)
+
+const bebidaPrincipal =  "guaraná";
+const bebidaAlternativa = "suco de laranja";
+
+if (bebidaPrincipal === "cafezinho" || bebidaAlternativa === "suco de laranja") {
+  console.log("Obrigado por me atender :D")
+} else {
+  console.log("Ei, eu não pedi isso!");
+}
